@@ -1,0 +1,518 @@
+------------------------------------------------------------------------------
+- SDAPS -- setup_tex
+------------------------------------------------------------------------------
+Ejecutando pdflatex dos veces para generar el cuestionario.
+Ejecutando pdflatex dos veces para generar el cuestionario.
+
+Author: 
+Questionnaire
+1(Head) Información personal
+1.1(Choice) Seleccione su edad {1}
+	0(Checkbox)  15.1  43.4   3.5   3.5 Menos de 5 años
+	1(Checkbox)  76.4  43.4   3.5   3.5 Entre 5 y 12 años
+	2(Checkbox)  15.1  48.2   3.5   3.5 Entre 13 y 17
+	3(Checkbox)  76.4  48.2   3.5   3.5 Entre 18 y 24 años
+	4(Checkbox)  15.1  53.0   3.5   3.5 Entre 25 y 40 años
+	5(Checkbox)  76.4  53.0   3.5   3.5 Más de 40 años
+1.2(Choice) Seleccione su área de interés profesional {1}
+	0(Checkbox)  15.1  67.4   3.5   3.5 Psicología
+	1(Checkbox)  76.4  67.4   3.5   3.5 Biología/Química/Geología/Paleontología
+	2(Checkbox)  15.1  72.2   3.5   3.5 Artes plásticas
+	3(Checkbox)  76.4  72.2   3.5   3.5 Ciencias Médicas (medicina, kinesiología, odontología, etc)
+	4(Checkbox)  15.1  77.0   3.5   3.5 Arquitectura/Diseño
+	5(Checkbox)  76.4  77.0   3.5   3.5 Física/Cs Atmósfera/Oceanografía
+	6(Checkbox)  15.1  81.8   3.5   3.5 Música
+	7(Checkbox)  76.4  81.8   3.5   3.5 Turismo
+	8(Checkbox)  15.1  86.6   3.5   3.5 Derecho
+	9(Checkbox)  76.4  86.6   3.5   3.5 Matemática/Computación/Ing. Sistemas
+	10(Checkbox)  15.1  91.3   3.5   3.5 Farmacia/Bioquímica
+	11(Checkbox)  76.4  91.3   3.5   3.5 Profesorado/Docencia(Cs Naturales y afines)
+	12(Checkbox)  15.1  96.1   3.5   3.5 Letras
+	13(Checkbox)  76.4  96.1   3.5   3.5 Profesorado/Docencia(Cs Sociales, letras, artes, afines)
+	14(Checkbox)  15.1 100.9   3.5   3.5 Deportes/Danzas
+	15(Checkbox)  76.4 100.9   3.5   3.5 Ingeniería (no sistemas)
+	16(Checkbox)  15.1 105.7   3.5   3.5 Cs Sociales
+	17(Checkbox)  76.4 105.7   3.5   3.5 Gastronomía
+	18(Checkbox)  15.1 110.5   3.5   3.5 Marketing/Publicidad
+	19(Checkbox)  76.4 110.5   3.5   3.5 Cs Económicas (economía, contador, etc)
+	20(Checkbox)  15.1 116.4   3.5   3.5 Agronomía/Veterinaria
+	21(Textbox ) 100.1 115.1  33.4   5.7 Otra opción:
+1.3(Choice) Seleccione su nivel de estudios formales {1}
+	0(Checkbox)  15.1 131.4   3.5   3.5 Primaria Completa
+	1(Checkbox)  76.4 131.4   3.5   3.5 Secundaria Completa
+	2(Checkbox)  15.1 136.2   3.5   3.5 Terciario Completo
+	3(Checkbox)  76.4 136.2   3.5   3.5 Universidad Completa
+	4(Checkbox)  15.1 141.0   3.5   3.5 Universidad en curso
+	5(Checkbox)  76.4 141.0   3.5   3.5 Posgrado Completo
+2(Head) Acerca de lo que acaba de ver evalue la factibilidad de cada una de las siguientes opciones
+2.1(Head) Marque una sola opción en la primera columna, y todas las demás que le parezcan posibles en la segunda.
+2.1.1(Choice) Calor {1}
+	0(Checkbox)  69.3 181.7   3.5   3.5 Mi elección
+	1(Checkbox)  91.5 181.7   3.5   3.5 Podría ser
+2.1.2(Choice) Telequinesis {1}
+	0(Checkbox)  69.3 186.5   3.5   3.5 Mi elección
+	1(Checkbox)  91.5 186.5   3.5   3.5 Podría ser
+2.1.3(Choice) Magnetismo {1}
+	0(Checkbox)  69.3 191.3   3.5   3.5 Mi elección
+	1(Checkbox)  91.5 191.3   3.5   3.5 Podría ser
+2.1.4(Choice) Energía Cósmica {1}
+	0(Checkbox)  69.3 196.1   3.5   3.5 Mi elección
+	1(Checkbox)  91.5 196.1   3.5   3.5 Podría ser
+2.1.5(Choice) Física Cuántica {1}
+	0(Checkbox)  69.3 200.9   3.5   3.5 Mi elección
+	1(Checkbox)  91.5 200.9   3.5   3.5 Podría ser
+2.1.6(Choice) Presión {1}
+	0(Checkbox)  69.3 205.7   3.5   3.5 Mi elección
+	1(Checkbox)  91.5 205.7   3.5   3.5 Podría ser
+2.1.7(Choice) Aura Corporal {1}
+	0(Checkbox)  69.3 210.5   3.5   3.5 Mi elección
+	1(Checkbox)  91.5 210.5   3.5   3.5 Podría ser
+2.1.8(Choice) Electricidad {1}
+	0(Checkbox)  69.3 215.2   3.5   3.5 Mi elección
+	1(Checkbox)  91.5 215.2   3.5   3.5 Podría ser
+2.1.9(Choice) Poderes Mágicos {1}
+	0(Checkbox)  69.3 220.0   3.5   3.5 Mi elección
+	1(Checkbox)  91.5 220.0   3.5   3.5 Podría ser
+2.1.10(Choice) No lo se {1}
+	0(Checkbox)  69.3 224.8   3.5   3.5 Mi elección
+	1(Checkbox)  91.5 224.8   3.5   3.5 Podría ser
+2.2(Head) Marque cuan factible le parece cada opción, la haya seleccionado o no.
+2.2.1(Mark) XAUTO. {1}
+	Mucho - Nada
+	0(Checkbox) 132.0 181.7   3.5   3.5 
+	1(Checkbox) 139.8 181.7   3.5   3.5 
+	2(Checkbox) 147.5 181.7   3.5   3.5 
+	3(Checkbox) 155.2 181.7   3.5   3.5 
+	4(Checkbox) 162.9 181.7   3.5   3.5 
+	5(Checkbox) 170.6 181.7   3.5   3.5 
+	6(Checkbox) 178.4 181.7   3.5   3.5 
+2.2.2(Mark) XAUTO. {1}
+	Mucho - Nada
+	0(Checkbox) 132.0 186.5   3.5   3.5 
+	1(Checkbox) 139.8 186.5   3.5   3.5 
+	2(Checkbox) 147.5 186.5   3.5   3.5 
+	3(Checkbox) 155.2 186.5   3.5   3.5 
+	4(Checkbox) 162.9 186.5   3.5   3.5 
+	5(Checkbox) 170.6 186.5   3.5   3.5 
+	6(Checkbox) 178.4 186.5   3.5   3.5 
+2.2.3(Mark) XAUTO. {1}
+	Mucho - Nada
+	0(Checkbox) 132.0 191.3   3.5   3.5 
+	1(Checkbox) 139.8 191.3   3.5   3.5 
+	2(Checkbox) 147.5 191.3   3.5   3.5 
+	3(Checkbox) 155.2 191.3   3.5   3.5 
+	4(Checkbox) 162.9 191.3   3.5   3.5 
+	5(Checkbox) 170.6 191.3   3.5   3.5 
+	6(Checkbox) 178.4 191.3   3.5   3.5 
+2.2.4(Mark) XAUTO. {1}
+	Mucho - Nada
+	0(Checkbox) 132.0 196.1   3.5   3.5 
+	1(Checkbox) 139.8 196.1   3.5   3.5 
+	2(Checkbox) 147.5 196.1   3.5   3.5 
+	3(Checkbox) 155.2 196.1   3.5   3.5 
+	4(Checkbox) 162.9 196.1   3.5   3.5 
+	5(Checkbox) 170.6 196.1   3.5   3.5 
+	6(Checkbox) 178.4 196.1   3.5   3.5 
+2.2.5(Mark) XAUTO. {1}
+	Mucho - Nada
+	0(Checkbox) 132.0 200.9   3.5   3.5 
+	1(Checkbox) 139.8 200.9   3.5   3.5 
+	2(Checkbox) 147.5 200.9   3.5   3.5 
+	3(Checkbox) 155.2 200.9   3.5   3.5 
+	4(Checkbox) 162.9 200.9   3.5   3.5 
+	5(Checkbox) 170.6 200.9   3.5   3.5 
+	6(Checkbox) 178.4 200.9   3.5   3.5 
+2.2.6(Mark) XAUTO. {1}
+	Mucho - Nada
+	0(Checkbox) 132.0 205.7   3.5   3.5 
+	1(Checkbox) 139.8 205.7   3.5   3.5 
+	2(Checkbox) 147.5 205.7   3.5   3.5 
+	3(Checkbox) 155.2 205.7   3.5   3.5 
+	4(Checkbox) 162.9 205.7   3.5   3.5 
+	5(Checkbox) 170.6 205.7   3.5   3.5 
+	6(Checkbox) 178.4 205.7   3.5   3.5 
+2.2.7(Mark) XAUTO. {1}
+	Mucho - Nada
+	0(Checkbox) 132.0 210.5   3.5   3.5 
+	1(Checkbox) 139.8 210.5   3.5   3.5 
+	2(Checkbox) 147.5 210.5   3.5   3.5 
+	3(Checkbox) 155.2 210.5   3.5   3.5 
+	4(Checkbox) 162.9 210.5   3.5   3.5 
+	5(Checkbox) 170.6 210.5   3.5   3.5 
+	6(Checkbox) 178.4 210.5   3.5   3.5 
+2.2.8(Mark) XAUTO. {1}
+	Mucho - Nada
+	0(Checkbox) 132.0 215.2   3.5   3.5 
+	1(Checkbox) 139.8 215.2   3.5   3.5 
+	2(Checkbox) 147.5 215.2   3.5   3.5 
+	3(Checkbox) 155.2 215.2   3.5   3.5 
+	4(Checkbox) 162.9 215.2   3.5   3.5 
+	5(Checkbox) 170.6 215.2   3.5   3.5 
+	6(Checkbox) 178.4 215.2   3.5   3.5 
+2.2.9(Mark) XAUTO. {1}
+	Mucho - Nada
+	0(Checkbox) 132.0 220.0   3.5   3.5 
+	1(Checkbox) 139.8 220.0   3.5   3.5 
+	2(Checkbox) 147.5 220.0   3.5   3.5 
+	3(Checkbox) 155.2 220.0   3.5   3.5 
+	4(Checkbox) 162.9 220.0   3.5   3.5 
+	5(Checkbox) 170.6 220.0   3.5   3.5 
+	6(Checkbox) 178.4 220.0   3.5   3.5 
+2.2.10(Mark) XAUTO. {1}
+	Mucho - Nada
+	0(Checkbox) 132.0 224.8   3.5   3.5 
+	1(Checkbox) 139.8 224.8   3.5   3.5 
+	2(Checkbox) 147.5 224.8   3.5   3.5 
+	3(Checkbox) 155.2 224.8   3.5   3.5 
+	4(Checkbox) 162.9 224.8   3.5   3.5 
+	5(Checkbox) 170.6 224.8   3.5   3.5 
+	6(Checkbox) 178.4 224.8   3.5   3.5 
+2.3(Text) Algo que quiera agregar... {1}
+	0(Textbox )  13.0 241.2 184.0  14.1 
+2.4(Mark) ¿Cuan relevante le parece en el proceso cómo se acerca la mano? {1}
+	Irrelevante - Determinante
+	0(Checkbox)  68.5 267.4   3.5   3.5 
+	1(Checkbox)  76.2 267.4   3.5   3.5 
+	2(Checkbox)  84.0 267.4   3.5   3.5 
+	3(Checkbox)  91.7 267.4   3.5   3.5 
+	4(Checkbox)  99.4 267.4   3.5   3.5 
+	5(Checkbox) 107.1 267.4   3.5   3.5 
+	6(Checkbox) 114.8 267.4   3.5   3.5 
+	7(Checkbox) 122.5 267.4   3.5   3.5 
+	8(Checkbox) 130.3 267.4   3.5   3.5 
+	9(Checkbox) 138.0 267.4   3.5   3.5 
+3(Head) Nuevamente, acerca de lo que acaba de ver, evalue la factibilidad de cada una de las siguientes opciones
+3.1(Head) Marque una sola opción en la primera columna, y todas las demás que le parezcan posibles en la segunda.
+3.1.1(Choice) Calor {2}
+	0(Checkbox)  69.3  64.7   3.5   3.5 Mi elección
+	1(Checkbox)  91.5  64.7   3.5   3.5 Podría ser
+3.1.2(Choice) Telequinesis {2}
+	0(Checkbox)  69.3  69.5   3.5   3.5 Mi elección
+	1(Checkbox)  91.5  69.5   3.5   3.5 Podría ser
+3.1.3(Choice) Magnetismo {2}
+	0(Checkbox)  69.3  74.2   3.5   3.5 Mi elección
+	1(Checkbox)  91.5  74.2   3.5   3.5 Podría ser
+3.1.4(Choice) Energía Cósmica {2}
+	0(Checkbox)  69.3  79.0   3.5   3.5 Mi elección
+	1(Checkbox)  91.5  79.0   3.5   3.5 Podría ser
+3.1.5(Choice) Física Cuántica {2}
+	0(Checkbox)  69.3  83.8   3.5   3.5 Mi elección
+	1(Checkbox)  91.5  83.8   3.5   3.5 Podría ser
+3.1.6(Choice) Presión {2}
+	0(Checkbox)  69.3  88.6   3.5   3.5 Mi elección
+	1(Checkbox)  91.5  88.6   3.5   3.5 Podría ser
+3.1.7(Choice) Aura Corporal {2}
+	0(Checkbox)  69.3  93.4   3.5   3.5 Mi elección
+	1(Checkbox)  91.5  93.4   3.5   3.5 Podría ser
+3.1.8(Choice) Electricidad {2}
+	0(Checkbox)  69.3  98.2   3.5   3.5 Mi elección
+	1(Checkbox)  91.5  98.2   3.5   3.5 Podría ser
+3.1.9(Choice) Poderes Mágicos {2}
+	0(Checkbox)  69.3 103.0   3.5   3.5 Mi elección
+	1(Checkbox)  91.5 103.0   3.5   3.5 Podría ser
+3.1.10(Choice) No lo se {2}
+	0(Checkbox)  69.3 107.7   3.5   3.5 Mi elección
+	1(Checkbox)  91.5 107.7   3.5   3.5 Podría ser
+3.2(Head) Marque cuan factible le parece cada opción, la haya seleccionado o no.
+3.2.1(Mark) XAUTO. {2}
+	Mucho - Nada
+	0(Checkbox) 132.0  64.7   3.5   3.5 
+	1(Checkbox) 139.8  64.7   3.5   3.5 
+	2(Checkbox) 147.5  64.7   3.5   3.5 
+	3(Checkbox) 155.2  64.7   3.5   3.5 
+	4(Checkbox) 162.9  64.7   3.5   3.5 
+	5(Checkbox) 170.6  64.7   3.5   3.5 
+	6(Checkbox) 178.4  64.7   3.5   3.5 
+3.2.2(Mark) XAUTO. {2}
+	Mucho - Nada
+	0(Checkbox) 132.0  69.5   3.5   3.5 
+	1(Checkbox) 139.8  69.5   3.5   3.5 
+	2(Checkbox) 147.5  69.5   3.5   3.5 
+	3(Checkbox) 155.2  69.5   3.5   3.5 
+	4(Checkbox) 162.9  69.5   3.5   3.5 
+	5(Checkbox) 170.6  69.5   3.5   3.5 
+	6(Checkbox) 178.4  69.5   3.5   3.5 
+3.2.3(Mark) XAUTO. {2}
+	Mucho - Nada
+	0(Checkbox) 132.0  74.2   3.5   3.5 
+	1(Checkbox) 139.8  74.2   3.5   3.5 
+	2(Checkbox) 147.5  74.2   3.5   3.5 
+	3(Checkbox) 155.2  74.2   3.5   3.5 
+	4(Checkbox) 162.9  74.2   3.5   3.5 
+	5(Checkbox) 170.6  74.2   3.5   3.5 
+	6(Checkbox) 178.4  74.2   3.5   3.5 
+3.2.4(Mark) XAUTO. {2}
+	Mucho - Nada
+	0(Checkbox) 132.0  79.0   3.5   3.5 
+	1(Checkbox) 139.8  79.0   3.5   3.5 
+	2(Checkbox) 147.5  79.0   3.5   3.5 
+	3(Checkbox) 155.2  79.0   3.5   3.5 
+	4(Checkbox) 162.9  79.0   3.5   3.5 
+	5(Checkbox) 170.6  79.0   3.5   3.5 
+	6(Checkbox) 178.4  79.0   3.5   3.5 
+3.2.5(Mark) XAUTO. {2}
+	Mucho - Nada
+	0(Checkbox) 132.0  83.8   3.5   3.5 
+	1(Checkbox) 139.8  83.8   3.5   3.5 
+	2(Checkbox) 147.5  83.8   3.5   3.5 
+	3(Checkbox) 155.2  83.8   3.5   3.5 
+	4(Checkbox) 162.9  83.8   3.5   3.5 
+	5(Checkbox) 170.6  83.8   3.5   3.5 
+	6(Checkbox) 178.4  83.8   3.5   3.5 
+3.2.6(Mark) XAUTO. {2}
+	Mucho - Nada
+	0(Checkbox) 132.0  88.6   3.5   3.5 
+	1(Checkbox) 139.8  88.6   3.5   3.5 
+	2(Checkbox) 147.5  88.6   3.5   3.5 
+	3(Checkbox) 155.2  88.6   3.5   3.5 
+	4(Checkbox) 162.9  88.6   3.5   3.5 
+	5(Checkbox) 170.6  88.6   3.5   3.5 
+	6(Checkbox) 178.4  88.6   3.5   3.5 
+3.2.7(Mark) XAUTO. {2}
+	Mucho - Nada
+	0(Checkbox) 132.0  93.4   3.5   3.5 
+	1(Checkbox) 139.8  93.4   3.5   3.5 
+	2(Checkbox) 147.5  93.4   3.5   3.5 
+	3(Checkbox) 155.2  93.4   3.5   3.5 
+	4(Checkbox) 162.9  93.4   3.5   3.5 
+	5(Checkbox) 170.6  93.4   3.5   3.5 
+	6(Checkbox) 178.4  93.4   3.5   3.5 
+3.2.8(Mark) XAUTO. {2}
+	Mucho - Nada
+	0(Checkbox) 132.0  98.2   3.5   3.5 
+	1(Checkbox) 139.8  98.2   3.5   3.5 
+	2(Checkbox) 147.5  98.2   3.5   3.5 
+	3(Checkbox) 155.2  98.2   3.5   3.5 
+	4(Checkbox) 162.9  98.2   3.5   3.5 
+	5(Checkbox) 170.6  98.2   3.5   3.5 
+	6(Checkbox) 178.4  98.2   3.5   3.5 
+3.2.9(Mark) XAUTO. {2}
+	Mucho - Nada
+	0(Checkbox) 132.0 103.0   3.5   3.5 
+	1(Checkbox) 139.8 103.0   3.5   3.5 
+	2(Checkbox) 147.5 103.0   3.5   3.5 
+	3(Checkbox) 155.2 103.0   3.5   3.5 
+	4(Checkbox) 162.9 103.0   3.5   3.5 
+	5(Checkbox) 170.6 103.0   3.5   3.5 
+	6(Checkbox) 178.4 103.0   3.5   3.5 
+3.2.10(Mark) XAUTO. {2}
+	Mucho - Nada
+	0(Checkbox) 132.0 107.7   3.5   3.5 
+	1(Checkbox) 139.8 107.7   3.5   3.5 
+	2(Checkbox) 147.5 107.7   3.5   3.5 
+	3(Checkbox) 155.2 107.7   3.5   3.5 
+	4(Checkbox) 162.9 107.7   3.5   3.5 
+	5(Checkbox) 170.6 107.7   3.5   3.5 
+	6(Checkbox) 178.4 107.7   3.5   3.5 
+3.3(Choice) ¿Piensa que hay algún truco que no notó y explica lo ocurrido? {2}
+	0(Checkbox)  15.1 124.7   3.5   3.5 Si
+	1(Checkbox)  76.4 124.7   3.5   3.5 No
+	2(Checkbox) 137.8 124.7   3.5   3.5 No se
+4(Head) Un poco más de información personal...
+4.1(Head) ¿Cuán a gusto se siente realizando las siguientes tareas?
+4.1.1(Choice) Bailar {2}
+	0(Checkbox) 113.2 156.1   3.5   3.5 Me encanta
+	1(Checkbox) 134.8 156.1   3.5   3.5 Me gusta
+	2(Checkbox) 149.1 156.1   3.5   3.5 Ni
+	3(Checkbox) 166.3 156.1   3.5   3.5 No me gusta
+	4(Checkbox) 187.4 156.1   3.5   3.5 Lo odio
+4.1.2(Choice) Cocinar {2}
+	0(Checkbox) 113.2 160.9   3.5   3.5 Me encanta
+	1(Checkbox) 134.8 160.9   3.5   3.5 Me gusta
+	2(Checkbox) 149.1 160.9   3.5   3.5 Ni
+	3(Checkbox) 166.3 160.9   3.5   3.5 No me gusta
+	4(Checkbox) 187.4 160.9   3.5   3.5 Lo odio
+4.1.3(Choice) Hacer ejercicios de matemática {2}
+	0(Checkbox) 113.2 165.7   3.5   3.5 Me encanta
+	1(Checkbox) 134.8 165.7   3.5   3.5 Me gusta
+	2(Checkbox) 149.1 165.7   3.5   3.5 Ni
+	3(Checkbox) 166.3 165.7   3.5   3.5 No me gusta
+	4(Checkbox) 187.4 165.7   3.5   3.5 Lo odio
+4.1.4(Choice) Mirar películas/series {2}
+	0(Checkbox) 113.2 170.5   3.5   3.5 Me encanta
+	1(Checkbox) 134.8 170.5   3.5   3.5 Me gusta
+	2(Checkbox) 149.1 170.5   3.5   3.5 Ni
+	3(Checkbox) 166.3 170.5   3.5   3.5 No me gusta
+	4(Checkbox) 187.4 170.5   3.5   3.5 Lo odio
+4.1.5(Choice) Construir cosas {2}
+	0(Checkbox) 113.2 175.3   3.5   3.5 Me encanta
+	1(Checkbox) 134.8 175.3   3.5   3.5 Me gusta
+	2(Checkbox) 149.1 175.3   3.5   3.5 Ni
+	3(Checkbox) 166.3 175.3   3.5   3.5 No me gusta
+	4(Checkbox) 187.4 175.3   3.5   3.5 Lo odio
+4.1.6(Choice) Trabajo de oficina {2}
+	0(Checkbox) 113.2 180.1   3.5   3.5 Me encanta
+	1(Checkbox) 134.8 180.1   3.5   3.5 Me gusta
+	2(Checkbox) 149.1 180.1   3.5   3.5 Ni
+	3(Checkbox) 166.3 180.1   3.5   3.5 No me gusta
+	4(Checkbox) 187.4 180.1   3.5   3.5 Lo odio
+4.1.7(Choice) Tarot {2}
+	0(Checkbox) 113.2 184.9   3.5   3.5 Me encanta
+	1(Checkbox) 134.8 184.9   3.5   3.5 Me gusta
+	2(Checkbox) 149.1 184.9   3.5   3.5 Ni
+	3(Checkbox) 166.3 184.9   3.5   3.5 No me gusta
+	4(Checkbox) 187.4 184.9   3.5   3.5 Lo odio
+4.1.8(Choice) Leer libros {2}
+	0(Checkbox) 113.2 189.6   3.5   3.5 Me encanta
+	1(Checkbox) 134.8 189.6   3.5   3.5 Me gusta
+	2(Checkbox) 149.1 189.6   3.5   3.5 Ni
+	3(Checkbox) 166.3 189.6   3.5   3.5 No me gusta
+	4(Checkbox) 187.4 189.6   3.5   3.5 Lo odio
+4.1.9(Choice) Prácticas religiosas {2}
+	0(Checkbox) 113.2 194.4   3.5   3.5 Me encanta
+	1(Checkbox) 134.8 194.4   3.5   3.5 Me gusta
+	2(Checkbox) 149.1 194.4   3.5   3.5 Ni
+	3(Checkbox) 166.3 194.4   3.5   3.5 No me gusta
+	4(Checkbox) 187.4 194.4   3.5   3.5 Lo odio
+4.1.10(Choice) Reparar cosas {2}
+	0(Checkbox) 113.2 199.2   3.5   3.5 Me encanta
+	1(Checkbox) 134.8 199.2   3.5   3.5 Me gusta
+	2(Checkbox) 149.1 199.2   3.5   3.5 Ni
+	3(Checkbox) 166.3 199.2   3.5   3.5 No me gusta
+	4(Checkbox) 187.4 199.2   3.5   3.5 Lo odio
+4.1.11(Choice) Programar {2}
+	0(Checkbox) 113.2 204.0   3.5   3.5 Me encanta
+	1(Checkbox) 134.8 204.0   3.5   3.5 Me gusta
+	2(Checkbox) 149.1 204.0   3.5   3.5 Ni
+	3(Checkbox) 166.3 204.0   3.5   3.5 No me gusta
+	4(Checkbox) 187.4 204.0   3.5   3.5 Lo odio
+4.1.12(Choice) Correr {2}
+	0(Checkbox) 113.2 208.8   3.5   3.5 Me encanta
+	1(Checkbox) 134.8 208.8   3.5   3.5 Me gusta
+	2(Checkbox) 149.1 208.8   3.5   3.5 Ni
+	3(Checkbox) 166.3 208.8   3.5   3.5 No me gusta
+	4(Checkbox) 187.4 208.8   3.5   3.5 Lo odio
+4.1.13(Choice) Resolver Acertijos {2}
+	0(Checkbox) 113.2 213.6   3.5   3.5 Me encanta
+	1(Checkbox) 134.8 213.6   3.5   3.5 Me gusta
+	2(Checkbox) 149.1 213.6   3.5   3.5 Ni
+	3(Checkbox) 166.3 213.6   3.5   3.5 No me gusta
+	4(Checkbox) 187.4 213.6   3.5   3.5 Lo odio
+4.1.14(Choice) Astrología {2}
+	0(Checkbox) 113.2 218.4   3.5   3.5 Me encanta
+	1(Checkbox) 134.8 218.4   3.5   3.5 Me gusta
+	2(Checkbox) 149.1 218.4   3.5   3.5 Ni
+	3(Checkbox) 166.3 218.4   3.5   3.5 No me gusta
+	4(Checkbox) 187.4 218.4   3.5   3.5 Lo odio
+4.1.15(Choice) Jugar deportes en equipo {2}
+	0(Checkbox) 113.2 223.2   3.5   3.5 Me encanta
+	1(Checkbox) 134.8 223.2   3.5   3.5 Me gusta
+	2(Checkbox) 149.1 223.2   3.5   3.5 Ni
+	3(Checkbox) 166.3 223.2   3.5   3.5 No me gusta
+	4(Checkbox) 187.4 223.2   3.5   3.5 Lo odio
+4.1.16(Choice) Debatir {2}
+	0(Checkbox) 113.2 227.9   3.5   3.5 Me encanta
+	1(Checkbox) 134.8 227.9   3.5   3.5 Me gusta
+	2(Checkbox) 149.1 227.9   3.5   3.5 Ni
+	3(Checkbox) 166.3 227.9   3.5   3.5 No me gusta
+	4(Checkbox) 187.4 227.9   3.5   3.5 Lo odio
+4.1.17(Choice) Trucos de magia {2}
+	0(Checkbox) 113.2 232.7   3.5   3.5 Me encanta
+	1(Checkbox) 134.8 232.7   3.5   3.5 Me gusta
+	2(Checkbox) 149.1 232.7   3.5   3.5 Ni
+	3(Checkbox) 166.3 232.7   3.5   3.5 No me gusta
+	4(Checkbox) 187.4 232.7   3.5   3.5 Lo odio
+4.1.18(Choice) Electrónica {2}
+	0(Checkbox) 113.2 237.5   3.5   3.5 Me encanta
+	1(Checkbox) 134.8 237.5   3.5   3.5 Me gusta
+	2(Checkbox) 149.1 237.5   3.5   3.5 Ni
+	3(Checkbox) 166.3 237.5   3.5   3.5 No me gusta
+	4(Checkbox) 187.4 237.5   3.5   3.5 Lo odio
+
+------------------------------------------------------------------------------
+- SDAPS -- stamp
+------------------------------------------------------------------------------
+Ejecutando pdflatex dos veces para generar el cuestionario estampado.
+Error: An error occured during creation of the report. Temporary files left in '/tmp/tmptaN4nC'.
+Traceback (most recent call last):
+  File "/usr/bin/sdaps", line 23, in <module>
+    sys.exit(sdaps.main())
+  File "/usr/lib/python2.7/dist-packages/sdaps/__init__.py", line 64, in main
+    return cmdline['_func'](cmdline)
+  File "/usr/lib/python2.7/dist-packages/sdaps/script.py", line 105, in decorated_function
+    result = function(cmdline)
+  File "/usr/lib/python2.7/dist-packages/sdaps/cmdline/stamp.py", line 56, in stamp
+    return stamp.stamp(survey, output, cmdline)
+  File "/usr/lib/python2.7/dist-packages/sdaps/stamp/__init__.py", line 90, in stamp
+    create_stamp_pdf(survey, output_filename, questionnaire_ids)
+  File "/usr/lib/python2.7/dist-packages/sdaps/stamp/latex.py", line 44, in create_stamp_pdf
+    latex.compile('questionnaire.tex', tmpdir, inputs=[os.path.abspath(survey.path())])
+  File "/usr/lib/python2.7/dist-packages/sdaps/utils/latex.py", line 123, in compile
+    run_engine(texfile, cwd, inputs)
+  File "/usr/lib/python2.7/dist-packages/sdaps/utils/latex.py", line 118, in run_engine
+    preexec_fn=_preexec_fn)
+  File "/usr/lib/python2.7/subprocess.py", line 522, in call
+    return Popen(*popenargs, **kwargs).wait()
+  File "/usr/lib/python2.7/subprocess.py", line 1376, in wait
+    pid, sts = _eintr_retry_call(os.waitpid, self.pid, 0)
+  File "/usr/lib/python2.7/subprocess.py", line 476, in _eintr_retry_call
+    return func(*args)
+KeyboardInterrupt
+------------------------------------------------------------------------------
+- SDAPS -- stamp
+------------------------------------------------------------------------------
+Ejecutando pdflatex dos veces para generar el cuestionario estampado.
+------------------------------------------------------------------------------
+- SDAPS -- stamp
+------------------------------------------------------------------------------
+Ejecutando pdflatex dos veces para generar el cuestionario estampado.
+------------------------------------------------------------------------------
+- SDAPS -- stamp
+------------------------------------------------------------------------------
+Ejecutando pdflatex dos veces para generar el cuestionario estampado.
+------------------------------------------------------------------------------
+- SDAPS -- stamp
+------------------------------------------------------------------------------
+Ejecutando pdflatex dos veces para generar el cuestionario estampado.
+------------------------------------------------------------------------------
+- SDAPS -- stamp
+------------------------------------------------------------------------------
+Ejecutando pdflatex dos veces para generar el cuestionario estampado.
+------------------------------------------------------------------------------
+- SDAPS -- stamp
+------------------------------------------------------------------------------
+Ejecutando pdflatex dos veces para generar el cuestionario estampado.
+------------------------------------------------------------------------------
+- SDAPS -- stamp
+------------------------------------------------------------------------------
+Ejecutando pdflatex dos veces para generar el cuestionario estampado.
+------------------------------------------------------------------------------
+- SDAPS -- stamp
+------------------------------------------------------------------------------
+Ejecutando pdflatex dos veces para generar el cuestionario estampado.
+------------------------------------------------------------------------------
+- SDAPS -- stamp
+------------------------------------------------------------------------------
+Ejecutando pdflatex dos veces para generar el cuestionario estampado.
+------------------------------------------------------------------------------
+- SDAPS -- stamp
+------------------------------------------------------------------------------
+Ejecutando pdflatex dos veces para generar el cuestionario estampado.
+------------------------------------------------------------------------------
+- SDAPS -- stamp
+------------------------------------------------------------------------------
+Ejecutando pdflatex dos veces para generar el cuestionario estampado.
+------------------------------------------------------------------------------
+- SDAPS -- stamp
+------------------------------------------------------------------------------
+Ejecutando pdflatex dos veces para generar el cuestionario estampado.
+------------------------------------------------------------------------------
+- SDAPS -- stamp
+------------------------------------------------------------------------------
+Ejecutando pdflatex dos veces para generar el cuestionario estampado.
+------------------------------------------------------------------------------
+- SDAPS -- stamp
+------------------------------------------------------------------------------
+Ejecutando pdflatex dos veces para generar el cuestionario estampado.
+------------------------------------------------------------------------------
+- SDAPS -- stamp
+------------------------------------------------------------------------------
+Ejecutando pdflatex dos veces para generar el cuestionario estampado.
+------------------------------------------------------------------------------
+- SDAPS -- stamp
+------------------------------------------------------------------------------
+Ejecutando pdflatex dos veces para generar el cuestionario estampado.
+------------------------------------------------------------------------------
+- SDAPS -- stamp
+------------------------------------------------------------------------------
+Ejecutando pdflatex dos veces para generar el cuestionario estampado.

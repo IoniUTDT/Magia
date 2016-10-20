@@ -29,9 +29,14 @@ C_Profesion = {'1_2_0':'Psicologia',
                     }
 
 C_Exactas = ['1_2_1','1_2_5','1_2_9','1_2_15']
+L_Exactas = [C_Profesion[item] for item in C_Exactas]
 C_Afines = ['1_2_3','1_2_4','1_2_10','1_2_13','1_2_2']
+L_Afines = [C_Profesion[item] for item in C_Afines]
 C_NoAfines = ['1_2_0','1_2_6','1_2_7','1_2_8','1_2_11','1_2_12',
                     '1_2_14','1_2_16','1_2_17','1_2_18','1_2_19','1_2_20']
+L_NoAfines = [C_Profesion[item] for item in C_NoAfines]
+C_Fisicas = ['1_2_5']
+L_Fisicas = [C_Profesion[item] for item in C_Fisicas]
 
 C_NivelFormacion = {'1_3_0':'Primaria','1_3_1':'Secundaria','1_3_2':'Terciario',
                           '1_3_3':'UniversidadCompleta','1_3_4':'UniversidadCurso','1_3_5':'Posgrado'}

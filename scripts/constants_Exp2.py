@@ -83,7 +83,7 @@ preguntasUnicas = {'Edad' : C_Edades,
             'HayTruco' : C_Truco
             }
 
-preguntasUnicas.update (preguntasAnidadas)
+#preguntasUnicas.update (preguntasAnidadas)
 
 preguntasMultiples = {
             'MecanismoInicialOtros' : C_Mecanismo_Q2
